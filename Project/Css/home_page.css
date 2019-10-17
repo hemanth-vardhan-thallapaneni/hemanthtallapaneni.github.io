@@ -1,0 +1,182 @@
+body
+{
+    background-color: white;
+}
+.navbar
+{
+    padding: 15px;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    height: 70px;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;    
+}
+.navbar button
+{
+   font-size: 18px;
+    float: left;
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;      
+}
+.navbar li
+{
+    font-size: 18px;
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top: 40px;   
+}
+
+.navbar li:hover
+{
+    color: coral;
+}
+
+.sticky
+{
+    position: sticky;
+    top:0;
+    widows: 100%;
+    
+}
+
+.heading
+{
+    font-size: 80px;
+    font-family: 'Frank Ruhl Libre', serif; 
+    padding-top: 60px;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+}
+ul
+{
+    transform: translateY(-50%);
+}
+.size
+{
+ font-size: 50px;
+}
+
+.play
+{
+      margin: 20px;
+      margin-top: 20px;
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(3,3fr);
+    
+}
+.image>img
+{
+    
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.image:hover{
+    transition: all .7s ease-in-out;
+    transform: scale(1.1);
+}
+.contactus
+{
+    overflow: hidden;
+    text-align: center;
+    background-color: coral;
+    font-size: 20px;
+}
+.about
+{
+    font-size: 50px;
+    padding-top: 15px;
+}
+.icons
+{
+    margin-bottom: 40px;
+    margin-left: 190px;
+    padding: 30px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.icons a
+{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    overflow:hidden;
+    border-radius: 50%;
+}
+.icons a:hover
+{
+    transition: all .7s ease-in-out;
+    transform: scale(1.1);
+}
+.icons a img
+{
+    width: 100%;
+}
+
+
+.testimonials{ 
+  overflow-y: scroll;
+  padding: 40px 0;
+  width: 100%; 
+  background: #f1f1f1;
+  color: #434343;
+  text-align: center;
+}
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.border{
+  width: 250px;
+  height: 5px;
+  background-color: coral;
+  margin: 16px auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  float: left;
+  padding: 30px;
+    
+}
+.col{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial{
+  background: #fff;
+  padding: 30px;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.testimonial:hover{
+transition: all .7s ease-in-out;
+    transform: scale(1.3);
+}
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.about
+{
+    font-family: 'Frank Ruhl Libre', serif;
+}
