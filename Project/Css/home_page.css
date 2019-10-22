@@ -7,10 +7,10 @@ body
     padding: 15px;
     list-style: none;
     font-family: 'Raleway', sans-serif;
-    height: 70px;
+    height: 50px;
     width: 100%;
     background-color: transparent;
-    text-align: center;    
+    text-align: center;  
 }
 .navbar button
 {

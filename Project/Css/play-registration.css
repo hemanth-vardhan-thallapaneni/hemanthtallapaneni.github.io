@@ -1,0 +1,85 @@
+
+.navbar
+{
+    padding-top: 5px;
+    color: white;
+    padding-bottom: 40px;
+    justify-content: center;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    height: 70px;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;    
+}
+
+.navbar li
+{
+    font-size: 18px;
+    float: left;
+    width: 17%;
+    text-align: center;
+    padding-top: 20px;  
+    padding-right: 20px;
+}
+
+.navbar li:hover
+{
+    color: coral;
+}
+
+.sticky
+{
+    position: sticky;
+    top:0;
+    widows: 100%;
+    
+}
+.heading
+{
+    font-size: 80px;
+    font-family: 'Frank Ruhl Libre', serif; 
+    padding-top: 60px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.dateandtime > input
+{
+  margin-left: 570px;
+  height: 10px;
+  width: 300px;
+  padding-right: 50px;
+  text-align: center;
+    background-color: transparent;
+     border: 1px solid white;
+    color: white;
+    
+}
+.line
+{
+    height: 5px;
+    width: 450px;
+    margin-left: 530px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+h1{
+    
+    text-align: center; 
+    width: 100%;
+    padding-top=50px;
+    color: white
+}
+.submit
+{
+    height: 40px;
+    width: 150px;
+    margin-left: 45%;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    
+}
