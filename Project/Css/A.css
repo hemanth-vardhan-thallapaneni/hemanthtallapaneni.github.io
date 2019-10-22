@@ -1,0 +1,138 @@
+body{
+	margin: 0;
+	background-color: #fdecff;
+}
+
+
+.Lpu-img{
+	width: 1000px;
+	height: 200px;
+	margin-bottom: 50px;
+	
+}
+
+
+.Upper-div{
+	width: 100%;
+	text-align: center;
+}
+
+
+.Sign-Up{
+	width: 600px;
+	height: 300px;
+	border-radius: 30px;
+	margin-left: 10px;
+	float: left;
+	background-color: #e25822;
+	border: 0;
+}
+.Sign-In{
+width: 400px;
+	height: 300px;
+	border-radius: 30px;
+	margin-right: 60px;
+	float: right;
+	background-color: #e25822;
+	border: 0;
+}
+
+.Button-Div{
+	margin-left: 0;
+}
+
+.Sign-up-text{
+	color: #3c3636;
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	display: inline-block;
+	margin-left: 230px;
+}
+.Middle-div{
+	width: 40%;
+	padding-left: 0;
+	position: absolute;
+	left: 30%;
+}
+
+.Line-top1{
+	width: 200px;
+	height: 5px;
+	background-color: #e25822; 
+	margin-top: 20px;
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+}
+.Line-top2{
+	width: 200px;
+	height: 5px;
+	background-color: #e25822; 
+	margin-top: 20px;
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+}
+h3{
+	font-family: 'Oswald', sans-serif;
+}
+.Lable{
+	margin-top: 40px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.box1{
+	  border: 1px solid #e25822;
+  border-radius: 4px;
+  width: 450px;
+  height: 40px;
+  margin-left: 40px;
+  background-image: url(https://ums.lpu.in/lpuums/login_images/user_icon.png);
+  background-position: right;
+	background-repeat: no-repeat;
+}
+
+.box2{
+	  border: 1px solid #e25822;
+  border-radius: 4px;
+  width: 450px;
+  height: 40px;
+  margin-left: 20px;
+  background-image: url(https://ums.lpu.in/lpuums/login_images/password_icon.png);
+  background-position: right;
+	background-repeat: no-repeat;
+
+}
+.Login-Button{
+	margin-top: 20px;
+	margin-left: 15px;
+	width: 100px;
+	height: 40px;
+	background-color: #e25822;
+	border: 0px;
+	margin-left: 200px;
+	font-family: 'Oswald', sans-serif;
+}
+.Signup-Button{
+	margin-top: 20px;
+	margin-left: 15px;
+	width: 100px;
+	height: 40px;
+	background-color: #e25822;
+	border: 0px;
+	font-family: 'Oswald', sans-serif;
+}
+.Line-bottom{
+	width: 570px;
+	height: 5px;
+	background-color: #e25822; 
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.Forgot{
+	position: absolute;
+	left: 240px;
+	margin: 10px auto;
+	color: #e25822;
+}

@@ -1,0 +1,105 @@
+body{
+	margin: 0;
+	background-color: #fdecff;
+}
+
+.Upper_div{
+	text-align: center;
+}
+.Main_heading{
+	font-family: 'Oswald', sans-serif;
+	font-size: 100px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+.Contact-us-text{
+	color: #3c3636;
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	display: inline-block;
+	margin-left: 230px;
+}
+.Middle-div{
+	width: 40%;
+	padding-left: 0;
+	position: absolute;
+	left: 30%;
+}
+
+.Line-top1{
+	width: 200px;
+	height: 5px;
+	background-color: #e25822; 
+	margin-top: 20px;
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+}
+.Line-top2{
+	width: 200px;
+	height: 5px;
+	background-color: #e25822; 
+	margin-top: 20px;
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+}
+h3{
+	font-family: 'Oswald', sans-serif;
+}
+.Lable{
+	margin-top: 40px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.box1{
+	  border: 1px solid #e25822;
+  border-radius: 4px;
+  width: 450px;
+  height: 40px;
+  margin-left: 40px;
+  background-image: url(https://ums.lpu.in/lpuums/login_images/user_icon.png);
+  background-position: right;
+	background-repeat: no-repeat;
+}
+
+.box2{
+	background-image: url(https://www.iconsdb.com/icons/preview/gray/mail-xxl.png);
+  background-position: right;
+  background-repeat: no-repeat;
+	  border: 1px solid #e25822;
+  border-radius: 4px;
+  width: 450px;
+  height: 40px;
+  margin-left: 40px;
+  background-size: 20px;
+}
+
+.box3{
+	border: 1px solid #e25822;
+	border-radius: 4px;
+  	width: 450px;
+  	height: 80px;
+  	margin-top: 40px;
+  	margin-left: 10px;
+}
+
+.Line-bottom{
+	width: 600px;
+	height: 5px;
+	background-color: #e25822; 
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.Login-Button{
+	margin-top: 20px;
+	width: 100px;
+	height: 40px;
+	background-color: #e25822;
+	border: 0px;
+	margin-left: 250px;
+	font-family: 'Oswald', sans-serif;
+}

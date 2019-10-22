@@ -1,0 +1,117 @@
+body{
+	margin: 0;
+	background-color: #fdecff;
+}
+
+.Lpu-img{
+	width: 1000px;
+	height: 200px;
+	margin-bottom: 50px;	
+}
+
+.Line-top1{
+	width: 400px;
+	height: 5px;
+	background-color: #e25822; 
+	margin-top: 20px;
+	display: inline-block;
+	position: absolute;
+	left: 30px;
+}
+.Line-top2{
+	width: 400px;
+	height: 5px;
+	background-color: #e25822; 
+	margin-top: 20px;
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+}
+
+.Sign-up-text{
+	color: #3c3636;
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	display: inline-block;
+	margin-left: 445px;
+}
+
+.Middle-div{
+	width: 1000px;
+	padding-left: 0;
+	position: absolute;
+	left: 17%;
+
+}
+
+table{
+	margin: 0;
+	border-collapse: separate;
+  border-spacing: 130px 45px;
+  width: 900px;
+  
+}
+
+.Upper-div{
+	width: 100%;
+	text-align: center;
+}
+
+.box1{
+	  border: 1px solid #e25822;
+  border-radius: 4px;
+  width: 300px;
+  height: 40px;
+
+  
+}
+
+.Line-bottom{
+	width: 1000px;
+	height: 5px;
+	background-color: #e25822; 
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.Name{
+	background-image: url(https://ums.lpu.in/lpuums/login_images/user_icon.png);
+  background-position: right;
+	background-repeat: no-repeat;
+}
+
+.Password{
+	background-image: url(https://ums.lpu.in/lpuums/login_images/password_icon.png);
+  background-position: right;
+	background-repeat: no-repeat;
+}
+.Phone{
+	background-image: url(https://www.iconsdb.com/icons/preview/gray/phone-2-xxl.png);
+  background-position: right;
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+
+.Email{
+	background-image: url(https://www.iconsdb.com/icons/preview/gray/mail-xxl.png);
+  background-position: right;
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+
+.RegNo{
+	background-image: url(https://www.iconsdb.com/icons/download/gray/report-3-512.png);
+  background-position: right;
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+.Login-Button{
+	margin-top: 20px;
+	margin-left: 15px;
+	width: 100px;
+	height: 40px;
+	background-color: #e25822;
+	border: 0px;
+	margin-left: 450px;
+	font-family: 'Oswald', sans-serif;
+}
