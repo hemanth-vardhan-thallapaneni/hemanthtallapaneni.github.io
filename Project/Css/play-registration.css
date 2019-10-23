@@ -28,6 +28,13 @@
     color: coral;
 }
 
+.navbar li>a
+{
+    color: black;
+    text-decoration: none;
+}
+
+
 .sticky
 {
     position: sticky;
