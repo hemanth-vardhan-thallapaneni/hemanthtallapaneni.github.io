@@ -1,6 +1,6 @@
 body
 {
-    background-color: white;
+    background-color: gray;
 }
 .navbar
 {
@@ -12,6 +12,14 @@ body
     background-color: transparent;
     text-align: center;  
 }
+
+@media screen and (max-width:400px)
+{
+    .navbar
+    {
+        padding: 12px;
+    }
+}
 .navbar button
 {
    font-size: 18px;
@@ -20,6 +28,14 @@ body
     justify-content: center;
     text-align: center;
     padding: 20px;      
+}
+
+@media only screen and (min-width:400px)
+{
+    .navbar li
+    {
+        font-size: 10px;
+    }
 }
 .navbar li
 {
@@ -190,3 +206,5 @@ transition: all .7s ease-in-out;
 {
     font-family: 'Frank Ruhl Libre', serif;
 }
+
+@media screen and (max-width:400px)
