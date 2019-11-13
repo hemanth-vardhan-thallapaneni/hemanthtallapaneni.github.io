@@ -3,10 +3,7 @@ body
     margin: 0;
     padding: 0;
 }
-.navbar
-{
-    background-color: transparent;
-}
+
 .logo
 {
     margin-left: 40px;
@@ -17,17 +14,6 @@ body
     font-size: 18px;
     font-family: 'Raleway', serif; 
     margin-left: 200px;
-    color: black;
-}
-
-li > a:hover
-{
-    color: coral;
-}
-
-.nav-link:hover
-{
-    color: coral;
 }
 
 .heading
@@ -177,11 +163,30 @@ li > a:hover
 }  
 }
 .border{
-  width: 250px;
+   width: 300px;
   height: 5px;
   background-color: coral;
-  margin: 16px auto;
+  margin-bottom: 50px;
+  margin-top: 5px;
+    margin-left: 430px;
 }
+.border1{
+  width: 510px;
+  height: 5px;
+  background-color: coral;
+  margin-bottom: 50px;
+  margin-top: -75px;
+    margin-left: 500px;
+}
+.border2{
+  width: 280px;
+  height: 5px;
+  background-color: coral;
+  margin-bottom: 50px;
+  margin-top: -80px;
+    margin-left: 620px;
+}
+
 
 .row{
   display: flex;
