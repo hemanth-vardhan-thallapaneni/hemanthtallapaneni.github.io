@@ -20,6 +20,11 @@ body
     color: black;
 }
 
+li > a:hover
+{
+    color: coral;
+}
+
 .nav-link:hover
 {
     color: coral;
