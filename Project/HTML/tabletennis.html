@@ -11,64 +11,143 @@
 
 </head>
 <style>
-    body{
-      background-image: url("https://images.pexels.com/photos/569986/pexels-photo-569986.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
-      background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .heading
-    {
-        color: white;
-    }
-    .line
-    {
-        background-color: white;
-    }
-    h1
-    {
-        color: white;
-    }
-    .submit
-    {
-        border: 1px solid white;
-        color: white;
-        margin-left: 660px;
-    }
-    .navbar li
-    {
-        color: white;
-    }
-     .navbar > li a
-    {
-        color: white;
-    }
-    
-      .navbar li>a
+@media only screen and (min-width: 400px)
 {
-    color:white;
-    text-decoration: none;
+body
+{
+  margin:0;
+  padding: 0;
+  background-image:url("../images/table-tenniscover.jpg");
+  background-size: cover;
+}
+}
+@media only screen and (max-width: 550px)
+{
+body
+{
+  background: url("../images/table-tennismobile.jpg");
+  background-size:cover;
+  height: 1000px;
+}
+
+}
+.line
+{
+height: 5px;
+width: 500px;
+margin-left: 500px;
+margin-top: -150px;
+background-color: black;
+}
+.heading
+{
+    font-size: 80px;
+    font-family: 'Frank Ruhl Libre', serif; 
+    color: black;
+    padding-top: 60px;
+    height: 250px;
+    width: 100%;
+    text-align: center;
 }
 h1
+{
+font-size: 40px;
+margin-left: 590px;
+}
+.dateandtime > input
+{
+margin-left: 610px;
+height: 40px;
+width: 300px;
+font-size: 20px;
+padding-right: 40px;
+text-align: center;
+background-color: transparent;
+border: 2px solid black;
+color: white;
+}
+.submit
+{
+font-size: 17px;
+height: 40px;
+width: 150px;
+margin-left: 44%;
+margin-top: 30px;
+background-color: transparent;
+border: 2px solid black;
+color: black;
+}
+.submit:hover
     {
-        margin-left: -18px;
+        background-color: black;
+        color: white;
     }
-.dateandtime
-    {
-        margin-left: 19px;
-    }
-   
-    </style>
+    
+@media only screen and (max-width: 550px)
+{
+ .line
+{
+    height: 5px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: -150px;
+    background-color: black;
+
+}       
+.heading
+{
+    font-size: 80px;
+    font-family: 'Frank Ruhl Libre', serif; 
+    color: black;
+    padding-top: 60px;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+}
+h1
+{
+font-size: 35px;
+margin-left: 90px;
+}
+.dateandtime > input
+{
+margin-left: 80px;
+height: 40px;
+width: 300px;
+font-size: 20px;
+padding-right: 40px;
+text-align: center;
+background-color: transparent;
+border: 2px solid black;
+color: white;
+}
+.submit
+{
+font-size: 17px;
+height: 40px;
+width: 150px;
+margin-left: 35%;
+margin-top: 30px;
+background-color: transparent;
+border: 2px solid black;
+color: black;
+}
+}
+ </style>
 <body>
 
-<ul class="navbar sticky">
-    
-       <li><a href="../../index.html">Home</a></li>
-       <li><a href=""></a>My Reservations</li>
-       <li class="logo"><img src="../images/Lovely_Professional_University_logo.png" width="80" height="80" alt="#"></li>
-        <li><a href="../HTML/feedback.html">Feedback</a></li>
-      
-</ul>
-
+<div class="topnav" id="myTopnav">
+  <a href="../../index.html">Home</a>
+  <a href="">My Reservations</a>
+  <a href="#"><img src="../images/Lovely_Professional_University_logo.png" height="80px"
+  width="80px" class="logo" alt="#"></a>
+  <a href="../HTML/feedback.html">Feedback</a>
+  <a href="">Sign Out</a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <img src="../images/Lovely_Professional_University_logo.png" alt="#" height="100px" width="100px">
+  </a>
+</div>
 <div class="heading">Table Tennis</div>
 <div class="line"></div>
 <h1>Pick a date and time</h1>
@@ -79,6 +158,15 @@ h1
 <script>
 $("#demo").datetimepicker({
 });
+    
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 </script>
 
 
