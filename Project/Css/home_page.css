@@ -187,6 +187,34 @@ body
     margin-left: 620px;
 }
 
+@media only screen and (max-width: 550px)
+{
+   .border{
+   width: 300px;
+  height: 5px;
+  background-color: coral;
+  margin-bottom: 50px;
+  margin-top: 5px;
+    margin-left: 430px;
+}
+.border1{
+  width: 510px;
+  height: 5px;
+  background-color: coral;
+  margin-bottom: 50px;
+  margin-top: -75px;
+    margin-left: 500px;
+}
+.border2{
+  width: 280px;
+  height: 5px;
+  background-color: coral;
+  margin-bottom: 50px;
+  margin-top: -80px;
+    margin-left: 620px;
+} 
+}
+
 
 .row{
   display: flex;
