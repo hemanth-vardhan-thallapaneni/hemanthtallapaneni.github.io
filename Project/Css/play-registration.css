@@ -1,7 +1,7 @@
 body
 {
-    margin: 0;
-    padding: 0;
+background-size: cover;
+    background-position: center;
 }
 .navbar
 {
@@ -27,17 +27,19 @@ body
     padding-right: 20px;
     color: white;
 }
-
-.navbar li:hover
+li a 
 {
-    color: coral;
+    text-decoration: none;
 }
-
-a: hover
+li:hover
 {
-    color: ;
+    text-decoration: underline;
 }
-
+.submit:hover
+{
+    background: white;
+    color: black;
+}
 .sticky
 {
     position: sticky;
