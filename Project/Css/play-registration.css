@@ -7,6 +7,7 @@ body
 .topnav {
   background-color: transparent;
   overflow: hidden;
+  width: 400px;
 }
 
 
@@ -17,9 +18,9 @@ body
   color: white;
   font-family: 'Raleway', serif;
   text-align: center;
-  padding: 14px 100px;
+  padding: 10px 50px;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 15px;
 }
 
 .topnav a:hover {
@@ -52,7 +53,7 @@ body
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
-    margin-left: 250px;
+    margin-left: 220px;
     top: 0;
   }
   .topnav.responsive a {
@@ -63,4 +64,3 @@ body
     text-align: left;
   }
 }
-
