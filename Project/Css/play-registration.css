@@ -34,7 +34,7 @@ body
   display: none;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .topnav a{display: none;}
   .topnav a.icon {
     margin-left: 115px;
@@ -48,7 +48,7 @@ body
 
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
