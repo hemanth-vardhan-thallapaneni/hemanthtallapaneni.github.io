@@ -7,7 +7,7 @@ body
 .topnav {
   background-color: transparent;
   overflow: hidden;
-  width: 400px;
+  width: 100%;
 }
 
 
@@ -15,12 +15,15 @@ body
 .topnav a {
   float: left;
   display: block;
+  margin-left: 100px;
+  margin-right: 20px;
+  margin-top: 20px;
   color: white;
   font-family: 'Raleway', serif;
   text-align: center;
   padding: 10px 50px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .topnav a:hover {
