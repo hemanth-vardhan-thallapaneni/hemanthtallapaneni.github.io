@@ -49,6 +49,13 @@ body
 {
  display: none;   
 }
+    
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  width: 400px;
+}
+
 
 }
 
